@@ -1,6 +1,6 @@
 <template>
   <div class="bg-dark">
-      <div class="container">
+      <div class="container_custom">
           <div class="d-flex">
               <img src="../assets/img/logo-200x34.png" alt="logo azienda">
               <ul>
@@ -33,17 +33,23 @@ export default {
 
 <style scoped lang="scss">
     .bg-dark{
-        background-color: black;
+         background-image:
+        linear-gradient(to right, 
+        #060607 0px, 
+        #060607 80%,
+       
+        );
     }
-    .container{
+    .container_custom{
         width: 80%;
         margin: 0 auto;
-        padding: 20px 0;
+        padding: 10px 0;
     }
     .d-flex{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: center;
     }
     ul{
         color: white;
@@ -71,7 +77,7 @@ export default {
         color: lightgrey;
     }
     button{
-        padding: 10px 15px;
+        padding: 5px 10px;
         background-color: rgb(66, 66, 235);
         color: white;
         text-align: center;
