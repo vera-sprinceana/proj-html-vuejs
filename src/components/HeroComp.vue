@@ -8,11 +8,13 @@
                     <p class="light-grey fs_custom">Curabitur non nulla sit emet nisl tempus convallis quis ac lectus
                         dolor sit amet.</p>
                     <div class="py-5">
-                        <button class="btn btn-primary me-4 rounded-pill"><i class="fa-brands fa-youtube"></i> Visit my
-                            YouTube
-                            channel</button>
-                        <button class="bg-dark  light-grey rounded-pill px-2">Buy Avada today <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <button class="btn btn-primary me-4 rounded-pill"><i class="fa-brands fa-youtube"></i> 
+                        Visit my YouTube channel
+                        </button>
+                        <button class="bg-dark  light-grey rounded-pill px-2">
+                            Buy Avada today 
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
 

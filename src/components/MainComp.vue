@@ -2,17 +2,20 @@
   <div>
     <HeroComp/>
     <Sezione1Comp/>
+    <SectionVideo/>
   </div>
 </template>
 
 <script>
 import HeroComp from './HeroComp.vue'
 import Sezione1Comp from './Sezione1Comp.vue'
+import SectionVideo from './SectionVideo.vue'
   export default {
     name: 'MainComp',
     components: {
       HeroComp,
-      Sezione1Comp
+      Sezione1Comp,
+      SectionVideo
     }
   }
 </script>

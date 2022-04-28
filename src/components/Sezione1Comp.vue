@@ -1,5 +1,5 @@
 <template>
-    <div class="bg_section">
+    <div class="bg_section pb-5">
         <div class="container d-flex ">
             <div class="bg-crossfit d-flex  ">
                 <div class="bg_dark d-flex align-items-end ">
@@ -33,7 +33,7 @@
         <div class=" container text-center mt-5 width_custom text-white pb-5">
                 <h5>"Now you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</h5>
                 <div class="pt-4">
-                    <img class="rounded-circle w-25" src="../assets/img/avatar-1-2x.jpg" alt="">
+                    <img class="rounded-circle w_custom" src="../assets/img/avatar-1-2x.jpg" alt="">
                     <span class="px-3">Brad Johnson</span>
                     <span class="light-grey">Las Vegas</span>
                 </div>
@@ -108,5 +108,8 @@
     }
     .width_custom{
         width: 35%;
+    }
+    .w_custom{
+        width: 60px;
     }
 </style>
