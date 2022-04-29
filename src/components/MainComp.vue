@@ -5,6 +5,7 @@
     <SectionVideo/>
     <VideoComp/>
     <SectionTwo/>
+    <CardsComp/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Sezione1Comp from './Sezione1Comp.vue'
 import SectionVideo from './SectionVideo.vue'
 import VideoComp from './VideoComp.vue'
 import SectionTwo from './SectionTwo.vue'
+import CardsComp from './CardsComp.vue'
 
   export default {
     name: 'MainComp',
@@ -22,7 +24,8 @@ import SectionTwo from './SectionTwo.vue'
       Sezione1Comp,
       SectionVideo,
       VideoComp,
-      SectionTwo
+      SectionTwo,
+      CardsComp
     }
   }
 </script>
