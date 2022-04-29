@@ -36,9 +36,7 @@
 </template>
 
 <script>
-    import "bootstrap";
     import PlayerComp from "./PlayerComp"
-
     export default {
         name: 'SectionVideo',
         components: {
