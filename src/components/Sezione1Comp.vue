@@ -72,16 +72,21 @@
         margin-top: -40px;
         z-index: 1;
     }
-
+    .bg-crossfit:hover{
+        width: 280px;
+        height: 280px;
+    }
     .bg_dark {
         background-color: rgba(0,0,0,0.30);
         background-size: cover;
         height: 250px;
         width: 250px;
         border-radius: 0 0 20px 0;
-       
     }
-
+    .bg_dark:hover{
+        width: 280px;
+        height: 280px;
+    }
     .bg-gym {
         background-image: url('../assets/img/box1-2x.jpg');
         background-size: cover;
@@ -90,7 +95,10 @@
         border-radius: 0 0 20px 0;
         margin-top: -40px;
     }
-
+    .bg-gym:hover{
+        width: 280px;
+        height: 280px;
+    }
     .bg-training {
         background-image: url('../assets/img/box3-2x.jpg');
         background-size: cover;
@@ -99,7 +107,10 @@
         border-radius: 0 0 20px 0;
         margin-top: -40px;
     }
-
+    .bg-training:hover{
+        width: 280px;
+        height: 280px;
+    }
     p {
         color: yellow;
         font-weight: bold;

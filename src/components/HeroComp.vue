@@ -9,10 +9,10 @@
                     <p class="grey">Curabitur non nulla sit emet nisl tempus convallis quis ac lectus
                         dolor sit amet.</p>
                     <div class="py-5">
-                        <button class="btn btn-primary me-4 rounded-pill"><i class="fa-brands fa-youtube"></i> 
+                        <button class="btn btn-primary me-4 rounded-pill red"><i class="fa-brands fa-youtube"></i> 
                         Visit my YouTube channel
                         </button>
-                        <button class="bg-dark text-white rounded-pill px-2">
+                        <button class=" btn bg-dark text-white rounded-pill px-3 white">
                             Buy Avada today 
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
@@ -43,14 +43,13 @@
     }
 
     .bg_hero {
-        background-image:url('../assets/img/slider82x-scaled.jpg'), linear-gradient(rgba(13,11,18,255), rgb(61, 61, 61), rgba(0,0,0,0,));
-        background-size: cover, cover;
-        background-repeat: no-repeat, no-repeat;
-        background-position: left, right;
+        background-image:url('../assets/img/slider82x-scaled.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .grey {
-        color: grey;
+        color: lightgrey;
     }
 
     .fa-arrow-right {
@@ -59,5 +58,12 @@
 
     .fs_custom {
         font-size: 0.8em;
+    }
+    .red:hover{
+        background-color: #ff414b;
+    }
+    .white:hover{
+        background-color: #f2f2f2;
+        color: rgb(0, 0, 0);
     }
 </style>

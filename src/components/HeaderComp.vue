@@ -107,4 +107,7 @@
         text-align: center;
         border-radius: 20px;
     }
+    button:hover {
+        background-color: #ff414b;
+    }
 </style>

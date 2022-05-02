@@ -15,6 +15,8 @@
     }
 </script>
 
-<style lang="scss">
-
+<style scoped lang="scss">
+    .fa-circle-play:hover{
+        font-size: 1.2em;
+    }
 </style>

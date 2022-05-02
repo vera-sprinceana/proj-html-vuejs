@@ -27,7 +27,7 @@
                 </div>
                 <p class="mt-4">Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo
                     integer sit pellentesque.</p>
-                <button class="bg-danger text-white px-3 py-2 rounded-pill mt-4">
+                <button class="bg-danger text-white px-3 py-2 rounded-pill mt-4 blue">
                     <i class="fa-brands fa-youtube  me-2"></i>
                     Visit my YouTube channel
                 </button>
@@ -79,5 +79,8 @@
 
     .bg_custom {
         background-color: rgb(249, 249, 249);
+    }
+    .blue:hover{
+        background-color: lightblue;
     }
 </style>

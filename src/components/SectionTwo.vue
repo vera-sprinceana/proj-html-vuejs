@@ -8,7 +8,7 @@
                     <img src="../assets/img/icons8-acquario-50 (1).png" alt="">
                     <div class="pt-5">
                         <input class="rounded-pill p-2 w-50" type="text" placeholder="Insert your email...*">
-                        <button class="btn bg-primary  light-grey rounded-pill px-4 ms-3">Subscribe </button>
+                        <button class="btn bg-primary  light-grey rounded-pill px-4 ms-3 red">Subscribe </button>
                         <p class="w-75 light-grey mt-4">Curabitur non nulla sit amet nisl tempus convallis quis ac
                             lectus dolor sit amet, consectetur adipiscing elit sed porttitor lectus.</p>
                     </div>
@@ -52,5 +52,9 @@
 
     .fs_custom {
         font-size: 0.8em;
+    }
+    .red:hover{
+        background-color: #bc0428;
+        color: black;
     }
 </style>
