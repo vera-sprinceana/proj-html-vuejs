@@ -2,6 +2,7 @@
     <div class="bg_section d-flex justify-content-center align-items-center ">
         <div class="container text-white text-center w-50 px-4">
             <h1>"I've failed over and over again in my life. And that is why I succeed."</h1>
+            <img src="../assets/img/icons8-acquario-50 (1).png" alt="">
             <p>Arcu auctor gravida nisl, conque sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum
                 eros, tristique. Gravida suspendisse etiam in iaculis</p>
             <button class="btn btn-primary  light-grey rounded-pill px-4">

@@ -71,13 +71,8 @@
   }
 </script>
 
-<style lang="scss">
-  .fa-youtube {
-    font-size: 25px;
-    color: #e74c3c;
-    margin: 5px;
-  }
-
+<style scoped lang="scss">
+  
   .col-right {
     list-style-type: none;
     display: flex;

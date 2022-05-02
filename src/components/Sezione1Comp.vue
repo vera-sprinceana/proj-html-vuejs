@@ -3,7 +3,8 @@
         <div class="container d-flex ">
             <div class="bg-crossfit d-flex  ">
                 <div class="bg_dark d-flex align-items-end ">
-                    <div class="text-white z-index">
+                    <div class="text-white ms-3">
+                        <img class="w-25" src="../assets/img/icons8-acquario-50 (3).png" alt="">
                         <h5>Crossfit works with</h5>
                         <p>Push your limits</p>
                     </div>
@@ -12,18 +13,20 @@
             </div>
             <div class="bg-gym ms-4  d-flex">
                 <div class="bg_dark d-flex align-items-end">
-                    <div class=" text-white ">
-                        <h5>Crossfit works with</h5>
-                        <p>Push your limits</p>
+                    <div class=" text-white ms-3">
+                        <img class="w-25" src="../assets/img/icons8-acquario-50 (3).png" alt="">
+                        <h5>New gym apparel</h5>
+                        <p>Look good, feel good</p>
                     </div>
                 </div>
 
             </div>
             <div class="bg-training ms-4 d-flex">
                 <div class="d-flex align-items-end bg_dark">
-                    <div class="text-white">
-                        <h5>Crossfit works with</h5>
-                        <p>Push your limits</p>
+                    <div class="text-white ms-3">
+                        <img class="w-25" src="../assets/img/icons8-acquario-50 (3).png" alt="">
+                        <h5>Team training</h5>
+                        <p>Find a partner</p>
                     </div>
                 </div>
 
@@ -32,6 +35,7 @@
         </div>
         <div class=" container text-center mt-5 width_custom text-white pb-5">
                 <h5>"Now you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</h5>
+                <img src="../assets/img/icons8-acquario-50 (1).png" alt="">
                 <div class="pt-4">
                     <img class="rounded-circle w_custom" src="../assets/img/avatar-1-2x.jpg" alt="">
                     <span class="px-3">Brad Johnson</span>
@@ -56,7 +60,7 @@
         color: lightgrey;
     }
     .bg_section {
-        background: linear-gradient(165deg, #0f17dd , #690d7e 70%, #b4042d);
+        background: linear-gradient(to bottom right, #0f17dd , #6b0c7a , #bc0428);
     }
 
     .bg-crossfit {
@@ -70,9 +74,8 @@
     }
 
     .bg_dark {
-        background-color: black;
+        background-color: rgba(0,0,0,0.30);
         background-size: cover;
-        opacity: 0.2;
         height: 250px;
         width: 250px;
         border-radius: 0 0 20px 0;

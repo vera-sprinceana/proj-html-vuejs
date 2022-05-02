@@ -1,70 +1,92 @@
 <template>
-  <div class="bg-dark">
-      <div class="container_custom">
-          <div class="d-flex">
-              <img src="../assets/img/logo-200x34.png" alt="logo azienda">
-              <ul>
-                  <li class="light-grey">Home</li>
-                  <li>Services</li>
-                  <li>About</li>
-                  <li>Videos</li>
-                  <li>Blog</li>
-                  <li>Store</li>
-                  <li class="bg-yellow">new</li>
-                  <li><button>Schedule a workout</button></li>
-                  <li><i class="fa-solid fa-cart-shopping"></i></li>
-                  <li><i class="fa-solid fa-magnifying-glass"></i></li>
-              </ul>
-          </div>
-      </div>
-  </div>
+    <div class="bg-dark">
+        <div class="container_custom">
+            <div class="d-flex">
+                <img src="../assets/img/logo-200x34.png" alt="logo azienda">
+                <ul v-for="(element, index) in this.menu" :key="index">
+                    <li class="light-grey"> {{element.voice[0] }} </li>
+                    <li class="light-grey"> {{element.voice[1] }} </li>
+                    <li class="light-grey"> {{element.voice[2] }} </li>
+                    <li class="light-grey"> {{element.voice[3] }} </li>
+                    <li class="light-grey"> {{element.voice[4] }} </li>
+                    <ul v-for="element in menu" :key="element">
+                        <li class="bg-yellow"> {{element.icons[0]}} </li>
+                        <li><button>{{element.icons[1]}}</button></li>
+                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    </ul>
+
+                </ul>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
+    export default {
+        name: 'HeaderComp',
+        components: {
 
+        },
+        data() {
+            return {
+                menu: [{
+                        voice: [
+                            'Home', 'Services', 'Videos', 'Blog', 'Store'
+                        ],
+                        icons: [
+                            'new',
+                            'Schedule a workout',
 
-export default {
-  name: 'HeaderComp',
-  components: {
-  
-  }
-}
+                        ]
+                    },
+
+                ],
+
+            }
+        }
+    }
 </script>
 
 <style scoped lang="scss">
-    .bg-dark{
-         background-image:
-        linear-gradient(to right, 
-        #060607 0px, 
-        #060607 80%,
-       
-        );
+    .bg-dark {
+        background-image:
+            linear-gradient(to right,
+                #060607 0px,
+                #060607 80%,
+
+            );
     }
-    .container_custom{
+
+    .container_custom {
         width: 80%;
         margin: 0 auto;
         padding: 10px 0;
     }
-    .d-flex{
+
+    .d-flex {
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
     }
-    ul{
+
+    ul {
         color: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
         list-style-type: none;
-        li{
+
+        li {
             padding: 5px;
             margin-left: 10px;
             color: grey;
             font-size: 1.2em;
         }
     }
-    .bg-yellow{
+
+    .bg-yellow {
         background-color: yellow;
         color: black;
         text-align: center;
@@ -73,10 +95,12 @@ export default {
         padding: 10px;
         font-weight: bold;
     }
-    .light-grey{
+
+    .light-grey {
         color: lightgrey;
     }
-    button{
+
+    button {
         padding: 5px 10px;
         background-color: rgb(66, 66, 235);
         color: white;

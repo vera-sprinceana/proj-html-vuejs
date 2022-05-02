@@ -1,7 +1,10 @@
 <template>
     <div class="d-flex justify-content-between align-center">
-        <div class="bg_section d-flex justify-content-center align-items-center">
-            <PlayerComp />
+        <div class="bg_section  ">
+            <div class="bg_dark d-flex justify-content-center align-items-center">
+                <PlayerComp />
+            </div>
+
         </div>
         <div class="d-flex w-100 mt-5">
             <div class="mt-5 px-5">
@@ -9,9 +12,9 @@
                 <h1 class="me-5 mt-4">The best health & fitness advide online</h1>
                 <div class="d-flex align-items-center mt-4">
                     <img src="../assets/img/unnamed.jpg" alt="logo unnamed">
-                    
+
                     <div class="d-flex flex-column ps-3">
-                       <h6 class=" ">ThemeFusion</h6> 
+                        <h6 class=" ">ThemeFusion</h6>
                         <div class="bg-danger w_custom  text-white d-flex  border align-items-center">
                             <i class="fa-brands fa-youtube  ms-2 "> </i>
                             <span class="ps-2">YouTube</span>
@@ -19,7 +22,7 @@
                                 <span>999+</span>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <p class="mt-4">Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo
@@ -54,6 +57,16 @@
         height: 650px;
         border-radius: 0 0 30px 0;
         margin-top: -40px;
+    }
+
+    .bg_dark {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 650px;
+        border-radius: 0 0 30px 0;
     }
 
     a {

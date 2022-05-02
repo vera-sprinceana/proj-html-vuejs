@@ -3,15 +3,16 @@
         <div class="container_custom  py-5 d-flex justify-content-between align-items-center">
             <div class="d-flex">
                 <div class="py-5">
-                    <p class="text-danger mt-3">Certified fintess professional</p>
+                    <h5 class="text-danger mt-3">Certified fintess professional</h5>
                     <h1 class="text-white">Take control of your health</h1>
-                    <p class="light-grey fs_custom">Curabitur non nulla sit emet nisl tempus convallis quis ac lectus
+                    <img class="my-3" src="../assets/img/icons8-acquario-50 (1).png" alt="">
+                    <p class="grey">Curabitur non nulla sit emet nisl tempus convallis quis ac lectus
                         dolor sit amet.</p>
                     <div class="py-5">
                         <button class="btn btn-primary me-4 rounded-pill"><i class="fa-brands fa-youtube"></i> 
                         Visit my YouTube channel
                         </button>
-                        <button class="bg-dark  light-grey rounded-pill px-2">
+                        <button class="bg-dark text-white rounded-pill px-2">
                             Buy Avada today 
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
@@ -42,13 +43,14 @@
     }
 
     .bg_hero {
-        background-image: url('../assets/img/slider82x-scaled.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-image:url('../assets/img/slider82x-scaled.jpg'), linear-gradient(rgba(13,11,18,255), rgb(61, 61, 61), rgba(0,0,0,0,));
+        background-size: cover, cover;
+        background-repeat: no-repeat, no-repeat;
+        background-position: left, right;
     }
 
-    .light-grey {
-        color: lightgrey;
+    .grey {
+        color: grey;
     }
 
     .fa-arrow-right {
