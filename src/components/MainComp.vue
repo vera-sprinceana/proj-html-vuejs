@@ -8,6 +8,7 @@
     <CardsComp/>
     <SectionArticles/>
     <MegaSection/>
+    <SponsorSection/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import SectionTwo from './SectionTwo.vue'
 import CardsComp from './CardsComp.vue'
 import SectionArticles from './SectionArticles.vue'
 import MegaSection from './MegaSection.vue'
+import SponsorSection from './SponsorSection.vue'
 
   export default {
     name: 'MainComp',
@@ -31,7 +33,8 @@ import MegaSection from './MegaSection.vue'
       SectionTwo,
       CardsComp,
       SectionArticles,
-      MegaSection
+      MegaSection,
+      SponsorSection
     }
   }
 </script>
