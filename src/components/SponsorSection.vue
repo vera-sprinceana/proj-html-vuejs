@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="container py-5">
         <div class="container d-flex justify-content-between align-items-center text-center">
             <!-- SPONSOR YOGA -->
             <div class="mt-3">

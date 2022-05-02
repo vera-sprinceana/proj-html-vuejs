@@ -9,6 +9,7 @@
     <SectionArticles/>
     <MegaSection/>
     <SponsorSection/>
+    <CrossfitComp/>
   </div>
 </template>
 
@@ -22,7 +23,7 @@ import CardsComp from './CardsComp.vue'
 import SectionArticles from './SectionArticles.vue'
 import MegaSection from './MegaSection.vue'
 import SponsorSection from './SponsorSection.vue'
-
+import CrossfitComp from './CrossfitComp.vue'
   export default {
     name: 'MainComp',
     components: {
@@ -34,7 +35,8 @@ import SponsorSection from './SponsorSection.vue'
       CardsComp,
       SectionArticles,
       MegaSection,
-      SponsorSection
+      SponsorSection,
+      CrossfitComp
     }
   }
 </script>
